@@ -2,7 +2,7 @@ CROSS_HOST="i686-w64-mingw32"
 inherit cross
 
 NAME="mingw64-i686-libwebp"
-VERSION=0.4.0
+VERSION=0.4.2
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="WebP graphics format codec for Win32 toolchain"
@@ -11,7 +11,7 @@ contains msvcrt-linked binaries (aka 'mingw').  It is for use with the
 mingw64-i686-gcc cross compiler, and installs into the
 /usr/i686-w64-mingw32/sys-root/mingw/{lib,include} directories."
 HOMEPAGE="http://developers.google.com/speed/webp/"
-SRC_URI="http://webp.googlecode.com/files/libwebp-${VERSION}.tar.gz"
+SRC_URI="http://downloads.webmproject.org/releases/webp/libwebp-${VERSION}.tar.gz"
 SRC_DIR="libwebp-${VERSION}"
 
 CYGCONF_ARGS="--enable-libwebpmux --enable-libwebpdemux --enable-libwebpdecoder"
