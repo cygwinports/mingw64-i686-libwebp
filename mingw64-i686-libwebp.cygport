@@ -2,7 +2,7 @@ CROSS_HOST="i686-w64-mingw32"
 inherit cross
 
 NAME="mingw64-i686-libwebp"
-VERSION=0.4.3
+VERSION=0.4.4
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="WebP graphics format codec for Win32 toolchain"
